@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Travel Adventures</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+   
+    <nav class="navbar">
+    <div class="countdown-bar">
+        <div class="countdown-timer" id="countdown">
+            <span>Next adventure begins in</span>
+            <div class="countdown-unit">
+                <span class="countdown-number" id="days">00</span>
+                <span class="countdown-label">Days</span>
+            </div>
+            <span class="countdown-separator">:</span>
+            <div class="countdown-unit">
+                <span class="countdown-number" id="hours">00</span>
+                <span class="countdown-label">Hours</span>
+            </div>
+            <span class="countdown-separator">:</span>
+            <div class="countdown-unit">
+                <span class="countdown-number" id="minutes">00</span>
+                <span class="countdown-label">Minutes</span>
+            </div>
+            <span class="countdown-separator">:</span>
+            <div class="countdown-unit">
+                <span class="countdown-number" id="seconds">00</span>
+                <span class="countdown-label">Seconds</span>
+            </div>
+        </div>
+    </div>
+    <div class="nav-container">
+        <div class="nav-logo">
+            <i class="fas fa-compass"></i>
+            <span>Our Adventures</span>
+        </div>
+    </div>
+</nav>
+
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Our Epic Journey</h1>
+                <p class="hero-subtitle">Exploring the world, one adventure at a time</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="15">1</span>
+                        <span class="stat-label">Countries</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="47">0</span>
+                        <span class="stat-label">Cities</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="1200">0</span>
+                        <span class="stat-label">Photos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section id="adventures" class="adventures">
+        <div class="container">
+            <h2 class="section-title">Recent Adventures</h2>
+            <div class="adventures-grid">
+                <div class="adventure-card">
+                    <div class="card-image">
+                        <img src="Assets - England/England Banner.avif" alt="Mountain Adventure">
+                        <div class="card-overlay">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>England</h3>
+                        <p>An unforgettable journey through London’s iconic landmarks, thrilling rugby at Twickenham, and world-famous attractions.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar"></i> September 2025</span>
+                            <span><i class="fas fa-map-marker-alt"></i> England</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="adventure-card">
+                    <div class="card-image">
+                        <img src="Placeholder.jpg" alt="Beach Adventure">
+                        <div class="card-overlay">
+                            <i class="fas fa-umbrella-beach"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Coming Soon...</h3>
+                        <p>Keep on the lookout</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar"></i> TBD</span>
+                            <span><i class="fas fa-map-marker-alt"></i>TBD</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="adventure-card">
+                    <div class="card-image">
+                        <img src="Placeholder.jpg" alt="Beach Adventure">
+                        <div class="card-overlay">
+                            <i class="fas fa-umbrella-beach"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Coming Soon...</h3>
+                        <p>Keep on the lookout</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar"></i> TBD</span>
+                            <span><i class="fas fa-map-marker-alt"></i>TBD</span>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Memory Lane</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=600&fit=crop" alt="Adventure 1">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=400&h=300&fit=crop" alt="Adventure 2">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=500&fit=crop" alt="Adventure 3">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=400&fit=crop" alt="Adventure 4">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=350&fit=crop" alt="Adventure 5">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="500">
+                    <img src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=400&h=300&fit=crop" alt="Adventure 6">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- Modal for gallery -->
+    <div class="modal" id="imageModal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
